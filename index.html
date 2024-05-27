@@ -1,62 +1,75 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site layout</title>
+    <title>Document</title>
     <style>
-        *{
+        * {
+            /* * é utilizado para todos os elementos */
             margin: 0;
+            /* margem esterna */
             padding: 0;
+            /* margem interna */
             box-sizing: border-box;
+            /* incluir o preenchimento das bordas */
         }
-        body{
+
+        body {
+            /* elementos flexível em um container */
             display: flex;
             margin: 3px;
             flex-wrap: wrap;
             flex: 1 1 100vw;
         }
-        header{
+
+        header {
             display: flex;
             margin: 3px;
             background-color: rgb(0, 255, 242);
             flex: 1 1 100vw;
             height: 100px;
         }
-        nav{
+
+        nav {
             display: flex;
             margin: 3px;
             background-color: hotpink;
-            flex: 1 1 200vw;
+            flex: 1 1 200px;
         }
-        main{
+
+        main {
             display: flex;
             margin: 3px;
             background-color: rgb(148, 91, 201);
             height: calc(100vh - 224px);
             flex: 20 1 500px;
         }
-        aside{
+
+        aside {
             display: flex;
             margin: 3px;
             background-color: rgb(243, 165, 137);
             flex: 1 1 200px;
-
-
         }
-        footer{
+
+        footer {
             display: flex;
             margin: 3px;
             background-color: rgb(110, 183, 255);
             height: 100px;
+            flex: 1 1 100vw;
         }
-        </style>
+    </style>
 </head>
+
 <body>
-     <header>cabeçalho</header>
-     <nav>menu</nav>
-     <main>principal</main>
-     <aside>realionado ao principal</aside>
-     <footer>rodapé</footer>
+    <header> Cabeçalho </header>
+    <nav> Menu </nav>
+    <main> Principal </main>
+    <aside> Relacionado ao Principal </aside>
+    <footer> Rodapé </footer>
 </body>
+
 </html>
